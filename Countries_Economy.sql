@@ -26,7 +26,7 @@ GROUP BY Region
 
 SELECT Country, Population, GDP_per_capita
 FROM CountriesEconomy 
-WHERE Country = 'India'
+WHERE Country = 'Malawi'
 ORDER BY Population
 
 
@@ -69,7 +69,7 @@ ORDER BY Country
 
 SELECT Country, Arable, Crops, Agriculture, GDP_per_capita
 FROM CountriesEconomy 
-WHERE Country =  'India'
+WHERE Country =  'Malawi'
 
 -----Distribution Of Countries By Climate And Its IMpact On Economic Indicators---
 
@@ -106,7 +106,9 @@ GROUP BY Region
 -----Impact Of Net Migration On Birth Rate & Death Rate-----
 
 SELECT Country, Net_migration, Birthrate, Deathrate
-FROM CountriesEconomy
+FROM CountriesEconomy 
+
+
 
 
 
